@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\bin\Debug\CSharpWinform.exe.config
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\bin\Debug\CSharpWinform.exe
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\bin\Debug\CSharpWinform.pdb
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\obj\Debug\CSharpWinform.csprojAssemblyReference.cache
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\obj\Debug\App.g.cs
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\obj\Debug\CSharpWinform_MarkupCompile.cache
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\obj\Debug\CSharpWinform_MarkupCompile.lref
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\obj\Debug\CSharpWinform.g.resources
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\obj\Debug\CSharpWinform.Properties.Resources.resources
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\obj\Debug\CSharpWinform.csproj.GenerateResource.cache
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\obj\Debug\CSharpWinform.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\obj\Debug\CSharpWinform.exe
+C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinform\CSharpWinform\obj\Debug\CSharpWinform.pdb

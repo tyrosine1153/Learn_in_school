@@ -1,9 +1,0 @@
-C:\Users\user\source\repos\SchoolCSharp\SchoolCSharp\bin\Release\SchoolCSharp.exe.config
-C:\Users\user\source\repos\SchoolCSharp\SchoolCSharp\bin\Release\SchoolCSharp.exe
-C:\Users\user\source\repos\SchoolCSharp\SchoolCSharp\bin\Release\SchoolCSharp.pdb
-C:\Users\user\source\repos\SchoolCSharp\SchoolCSharp\obj\Release\SchoolCSharp.Form1.resources
-C:\Users\user\source\repos\SchoolCSharp\SchoolCSharp\obj\Release\SchoolCSharp.Properties.Resources.resources
-C:\Users\user\source\repos\SchoolCSharp\SchoolCSharp\obj\Release\SchoolCSharp.csproj.GenerateResource.cache
-C:\Users\user\source\repos\SchoolCSharp\SchoolCSharp\obj\Release\SchoolCSharp.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\SchoolCSharp\SchoolCSharp\obj\Release\SchoolCSharp.exe
-C:\Users\user\source\repos\SchoolCSharp\SchoolCSharp\obj\Release\SchoolCSharp.pdb
