@@ -24,13 +24,13 @@ int CMyString::SetString(const char* pszParam)
 }
 
 
-const char* CMyString::GetString()
+const char* CMyString::GetString() const
 {
 	return m_pszData;
 }
 
 
-void CMyString::Release()
+void CMyString::Release() const
 {
 	delete m_pszData;
 }
