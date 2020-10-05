@@ -4,10 +4,7 @@ retest_score = 0
 fail_score = 0
 retest = []
 with open("sample_to_input.txt", "r", encoding='UTF8') as f:
-    while True:
-        line = f.readline()
-        if not line:
-            break
+    for line in f:
         line = line.strip().split(" ")
         word_dict[line[0]] = line[1]
 
