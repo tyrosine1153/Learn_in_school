@@ -1,4 +1,8 @@
-﻿namespace CSharpWinForms
+﻿using System.Collections.Generic;
+using System.Security;
+using System.Windows.Forms;
+
+namespace CSharpWinForms
 {
 	partial class Form1
 	{
@@ -28,90 +32,78 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.button1 = new System.Windows.Forms.Button();
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-			this.back = new System.Windows.Forms.Button();
-			this.forward = new System.Windows.Forms.Button();
+			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			this.timer1 = new System.Windows.Forms.Timer(this.components);
+			this.timer2 = new System.Windows.Forms.Timer(this.components);
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// button1
+			// pictureBox1
 			// 
-			this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.button1.Location = new System.Drawing.Point(713, 12);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(75, 23);
-			this.button1.TabIndex = 0;
-			this.button1.Text = "접속";
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(this.button1_Click);
+			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+			this.pictureBox1.Location = new System.Drawing.Point(340, 325);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(118, 102);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.pictureBox1.TabIndex = 7;
+			this.pictureBox1.TabStop = false;
+			this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
 			// 
-			// textBox1
+			// timer1
 			// 
-			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox1.Location = new System.Drawing.Point(248, 12);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(448, 21);
-			this.textBox1.TabIndex = 2;
-			// 
-			// webBrowser1
-			// 
-			this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.webBrowser1.Location = new System.Drawing.Point(12, 39);
-			this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-			this.webBrowser1.Name = "webBrowser1";
-			this.webBrowser1.Size = new System.Drawing.Size(776, 399);
-			this.webBrowser1.TabIndex = 3;
-			this.webBrowser1.Url = new System.Uri("http://naver.com", System.UriKind.Absolute);
-			// 
-			// back
-			// 
-			this.back.Location = new System.Drawing.Point(12, 10);
-			this.back.Name = "back";
-			this.back.Size = new System.Drawing.Size(75, 23);
-			this.back.TabIndex = 4;
-			this.back.Text = "뒤로";
-			this.back.UseVisualStyleBackColor = true;
-			this.back.Click += new System.EventHandler(this.back_Click);
-			// 
-			// forward
-			// 
-			this.forward.Location = new System.Drawing.Point(93, 10);
-			this.forward.Name = "forward";
-			this.forward.Size = new System.Drawing.Size(75, 23);
-			this.forward.TabIndex = 5;
-			this.forward.Text = "앞으로";
-			this.forward.UseVisualStyleBackColor = true;
-			this.forward.Click += new System.EventHandler(this.forward_Click);
+			this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+			
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
-			this.Controls.Add(this.forward);
-			this.Controls.Add(this.back);
-			this.Controls.Add(this.webBrowser1);
-			this.Controls.Add(this.textBox1);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.pictureBox1);
 			this.Name = "Form1";
 			this.Text = "Form1";
 			this.Load += new System.EventHandler(this.Form1_Load);
+			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown_1);
+			this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
+			this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
-			this.PerformLayout();
 
 		}
 
 		#endregion
+		
+		void MakePictureArray (int count) 
+		{
+			this.pictureBox2 = new System.Windows.Forms.PictureBox[count];
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+			for (int i = 0; i < pictureBox2.Length; i++)
+			{
+				this.pictureBox2[i] = new System.Windows.Forms.PictureBox();
+				((System.ComponentModel.ISupportInitialize)(this.pictureBox2[i])).BeginInit();
+				// 
+				// pictureBox2
+				// 
+				this.pictureBox2[i].Load(@"C:\Users\user\Desktop\캡쳐\123.png");
+				this.pictureBox2[i].Location = new System.Drawing.Point(12+i*80, 12);
+				this.pictureBox2[i].Name = "pictureBox2";
+				this.pictureBox2[i].Size = new System.Drawing.Size(80, 80);
+				this.pictureBox2[i].SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+				this.pictureBox2[i].TabIndex = 8;
+				this.pictureBox2[i].TabStop = false;
 
-		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.TextBox textBox1;
-		private System.Windows.Forms.WebBrowser webBrowser1;
-		private System.Windows.Forms.Button back;
-		private System.Windows.Forms.Button forward;
+				this.Controls.Add(this.pictureBox2[i]);
+				((System.ComponentModel.ISupportInitialize)(this.pictureBox2[i])).EndInit();
+			}
+		}
+
+
+		private System.Windows.Forms.PictureBox pictureBox1;
+		private System.Windows.Forms.Timer timer1;
+		private System.Windows.Forms.PictureBox[] pictureBox2;
+		private System.Windows.Forms.Timer timer2;
+		private System.Windows.Forms.PictureBox pictureBox3;
 	}
 }
-
