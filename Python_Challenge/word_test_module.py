@@ -6,7 +6,7 @@ retest = []
 
 
 def open_word_file():
-    with open("sample_to_input.txt", "r", encoding='UTF8') as f:
+    with open("sample_to_word_test.txt", "r", encoding='UTF8') as f:
         for line in f:
             line = line.strip().split(" ")
             word_dict[line[0]] = line[1]
