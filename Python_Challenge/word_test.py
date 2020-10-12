@@ -1,37 +1,19 @@
-word_dict = {}
-win_score = 0
-retest_score = 0
-fail_score = 0
-retest = []
-with open("sample_to_input.txt", "r", encoding='UTF8') as f:
-    for line in f:
-        line = line.strip().split(" ")
-        word_dict[line[0]] = line[1]
+from word_test_module import *
 
-for eng in word_dict.keys():
-    answer = input(f"{eng} : ")
-    if word_dict[eng] == answer:
-        win_score += 1
-        print(f"정답입니다! {eng} {word_dict[eng]}\n")
-    else:
-        retest.append(eng)
-        print(f"오답입니다! {eng} {word_dict[eng]}\n")
+if __name__ == '__main__':
+    word_dict = open_word_file()
 
-if win_score == 10:
-    print("------시험이 끝났습니다------")
-else:
-    print("------재시험을 시작합니다------")
+    win_score = f_test(win_score)
 
-for eng in retest:
-    answer = input(f"{eng} : ")
-    if word_dict[eng] == answer:
-        retest_score += 1
-        print(f"정답입니다! {eng} {word_dict[eng]}\n")
-    else:
-        fail_score += 1
-        print(f"오답입니다! {eng} {word_dict[eng]}\n")
+    print(win_score, retest_score, fail_score)
+    if win_score != 10:
+        print("------재시험을 시작합니다------")
+        retest_score, fail_score = f_retest(retest_score, fail_score)
 
-print("------시험이 끝났습니다.------\n\n\t+++점수+++")
-print(f"\t완벽하게 알고있음 : {win_score}")
-print(f"\t알고있음 : {retest_score}")
-print(f"\t공부가 필요함 : {fail_score}")
+    print("------시험이 끝났습니다.------\n\n\t+++점수+++")
+    print(f"\t완벽하게 알고있음 : {win_score}")
+    print(f"\t알고있음 : {retest_score}")
+    print(f"\t공부가 필요함 : {fail_score}")
+
+# 첫 번째 시험과 재시험을 같은 함수로 묶어서 사용하기
+# 코드들을 클래스와 함수로 묶어서 모듈화 하기
