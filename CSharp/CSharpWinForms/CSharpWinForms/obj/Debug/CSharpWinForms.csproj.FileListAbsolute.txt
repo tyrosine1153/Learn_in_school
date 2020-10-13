@@ -8,3 +8,13 @@ C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharp
 C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinForms\obj\Debug\CSharpWinForms.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinForms\obj\Debug\CSharpWinForms.exe
 C:\Users\user\Desktop\github_djWjrn\Study_in_school\CSharp\CSharpWinForms\CSharpWinForms\obj\Debug\CSharpWinForms.pdb
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\CSharpWinForms\CSharpWinForms\bin\Debug\CSharpWinForms.exe.config
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\CSharpWinForms\CSharpWinForms\bin\Debug\CSharpWinForms.exe
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\CSharpWinForms\CSharpWinForms\bin\Debug\CSharpWinForms.pdb
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\CSharpWinForms\CSharpWinForms\obj\Debug\CSharpWinForms.csprojAssemblyReference.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\CSharpWinForms\CSharpWinForms\obj\Debug\CSharpWinForms.Form1.resources
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\CSharpWinForms\CSharpWinForms\obj\Debug\CSharpWinForms.Properties.Resources.resources
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\CSharpWinForms\CSharpWinForms\obj\Debug\CSharpWinForms.csproj.GenerateResource.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\CSharpWinForms\CSharpWinForms\obj\Debug\CSharpWinForms.csproj.CoreCompileInputs.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\CSharpWinForms\CSharpWinForms\obj\Debug\CSharpWinForms.exe
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\CSharpWinForms\CSharpWinForms\obj\Debug\CSharpWinForms.pdb

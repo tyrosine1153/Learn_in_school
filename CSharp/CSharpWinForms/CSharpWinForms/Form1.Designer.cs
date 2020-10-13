@@ -33,28 +33,25 @@ namespace CSharpWinForms
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
-			this.timer2 = new System.Windows.Forms.Timer(this.components);
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
-			// 
-			// pictureBox1
-			// 
-			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(340, 325);
-			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(118, 102);
-			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-			this.pictureBox1.TabIndex = 7;
-			this.pictureBox1.TabStop = false;
-			this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
 			// 
 			// timer1
 			// 
 			this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-			
+			// 
+			// pictureBox1
+			// 
+			this.pictureBox1.Image = global::CSharpWinForms.Properties.Resources._123;
+			this.pictureBox1.Location = new System.Drawing.Point(340, 325);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(111, 102);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			this.pictureBox1.TabIndex = 7;
+			this.pictureBox1.TabStop = false;
+			this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
 			// 
 			// Form1
 			// 
@@ -75,35 +72,54 @@ namespace CSharpWinForms
 
 		#endregion
 		
-		void MakePictureArray (int count) 
+		private PictureBox MakeEnemy(int sequence) 
 		{
-			this.pictureBox2 = new System.Windows.Forms.PictureBox[count];
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-			for (int i = 0; i < pictureBox2.Length; i++)
-			{
-				this.pictureBox2[i] = new System.Windows.Forms.PictureBox();
-				((System.ComponentModel.ISupportInitialize)(this.pictureBox2[i])).BeginInit();
-				// 
-				// pictureBox2
-				// 
-				this.pictureBox2[i].Load(@"C:\Users\user\Desktop\캡쳐\123.png");
-				this.pictureBox2[i].Location = new System.Drawing.Point(12+i*80, 12);
-				this.pictureBox2[i].Name = "pictureBox2";
-				this.pictureBox2[i].Size = new System.Drawing.Size(80, 80);
-				this.pictureBox2[i].SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-				this.pictureBox2[i].TabIndex = 8;
-				this.pictureBox2[i].TabStop = false;
+			PictureBox pictureBox2;
+			pictureBox2 = new System.Windows.Forms.PictureBox();
+			((System.ComponentModel.ISupportInitialize)(pictureBox2)).BeginInit();
+			// 
+			// pictureBox2
+			// 
+			pictureBox2.Load(@"C:\Users\jungm\Desktop\캡쳐\123.png");
+			pictureBox2.Location = new System.Drawing.Point(12+ sequence * 80, 12);
+			pictureBox2.Name = "pictureBox2";
+			pictureBox2.Size = new System.Drawing.Size(40, 40);
+			pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			pictureBox2.TabIndex = 8;
+			pictureBox2.TabStop = false;
 
-				this.Controls.Add(this.pictureBox2[i]);
-				((System.ComponentModel.ISupportInitialize)(this.pictureBox2[i])).EndInit();
-			}
+			Controls.Add(pictureBox2);
+			((System.ComponentModel.ISupportInitialize)(pictureBox2)).EndInit();
+
+			return pictureBox2;
 		}
 
+		private PictureBox MaKeBullet()
+		{
+			PictureBox pictureBox4; // 클래스 변수화
+			pictureBox4 = new System.Windows.Forms.PictureBox();
+			((System.ComponentModel.ISupportInitialize)(pictureBox4)).BeginInit();
+			// 
+			// pictureBox4
+			// 
+			pictureBox4.Image = global::CSharpWinForms.Properties.Resources._1234;
+			pictureBox4.Location = new System.Drawing.Point(pictureBox1.Left + 22, pictureBox1.Top - 47);
+			pictureBox4.Name = "pictureBox4";
+			pictureBox4.Size = new System.Drawing.Size(45, 47);
+			pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+			pictureBox4.TabIndex = 8;
+			pictureBox4.TabStop = false;
+			pictureBox4.Click += new System.EventHandler(pictureBox4_Click);
+
+			Controls.Add(pictureBox4);
+			((System.ComponentModel.ISupportInitialize)(pictureBox4)).EndInit();
+
+			return pictureBox4;
+		}
 
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Timer timer1;
-		private System.Windows.Forms.PictureBox[] pictureBox2;
-		private System.Windows.Forms.Timer timer2;
 		private System.Windows.Forms.PictureBox pictureBox3;
+		
 	}
 }
