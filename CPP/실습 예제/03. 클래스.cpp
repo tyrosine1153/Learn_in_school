@@ -26,20 +26,28 @@ public:
     // 클래스의 생성자 함수 선언
     CTest(){
         // 인스턴스가 생성되면 멤버 데이터를 자동으로 초기화 한다
+        cout << "CTest() : 생성자 함수" << endl;
         m_nData = 10;
     }
 
     int m_nData;
 
-    void PrintData(){
-        cout << m_nData << endl;
-    }
+    // 멤버 함수 선언, 정의는 클래스 외부로 분리됨
+    void PrintData();
 };
+
+// 클래스 외부에 분리된 멤버 함수 정의
+void CTest::PrintData(){
+    // 멤버 데이터에 접근하고 값을 출력한다
+    cout << m_nData << endl;
+}
 
 class DEV{
 public:
     DEV() : data1(10), data2(20) // 생성자 초기화 목록을 이용한 멤버 초기화
     {}
+    int data1;
+    int data2;
 };
 
 class TLQKF{
