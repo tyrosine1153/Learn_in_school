@@ -22,7 +22,6 @@ namespace ClassSeatTable
 		}
 		private void button1_Click(object sender, EventArgs e)
 		{
-			if (textBox1.Text.GetType() == typeof(int)) { }
 			int input = Convert.ToInt32(textBox1.Text);
 			MakeSeat(input);
 			ShuppleSeat();
@@ -30,6 +29,7 @@ namespace ClassSeatTable
 		/*
 		 자리수 랜덤하게 섞임. 2중 for 문을 이용해서 서로 바꿔주는 방식 
 		Visible = false, null
+		// 해야할것 : 새로 만들때마다 자리 없애기, 숫자가 아니면 걸리도록 하기
 		*/
 		private void ShuppleSeat() {
 			int labelCnt = labelList.Count;
