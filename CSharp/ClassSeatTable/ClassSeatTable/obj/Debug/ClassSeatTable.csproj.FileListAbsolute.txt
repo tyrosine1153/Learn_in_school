@@ -1,0 +1,10 @@
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\ClassSeatTable\ClassSeatTable\bin\Debug\ClassSeatTable.exe.config
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\ClassSeatTable\ClassSeatTable\bin\Debug\ClassSeatTable.exe
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\ClassSeatTable\ClassSeatTable\bin\Debug\ClassSeatTable.pdb
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\ClassSeatTable\ClassSeatTable\obj\Debug\ClassSeatTable.csprojAssemblyReference.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\ClassSeatTable\ClassSeatTable\obj\Debug\ClassSeatTable.Form1.resources
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\ClassSeatTable\ClassSeatTable\obj\Debug\ClassSeatTable.Properties.Resources.resources
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\ClassSeatTable\ClassSeatTable\obj\Debug\ClassSeatTable.csproj.GenerateResource.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\ClassSeatTable\ClassSeatTable\obj\Debug\ClassSeatTable.csproj.CoreCompileInputs.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\ClassSeatTable\ClassSeatTable\obj\Debug\ClassSeatTable.exe
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\ClassSeatTable\ClassSeatTable\obj\Debug\ClassSeatTable.pdb
