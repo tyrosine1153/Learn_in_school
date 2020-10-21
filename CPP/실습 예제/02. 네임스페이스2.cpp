@@ -3,27 +3,27 @@
 using namespace std; //std 네임스페이스를 생략한다
 
 // 네임스페이스 안에 또 다른 네임스페이스가 속할 수 있음
-namespace FIRST{
+namespace FIRST {
     int g_nData = 100;
-    namespace SECOND{
+    namespace SECOND {
         int g_nData = 200;
-        namespace THIRD{
+        namespace THIRD {
             int g_nData = 300;
         }  // int g_nData 변수는 이름은 같아도 전혀 다른 세 개의 전역 변수
     }
 }
 
 // namespace와 다중 정의
-void TestFunc(){  // 전역함수(개념상 무소속)
-     cout << "::TestFunc()" << endl;
+void TestFunc() {  // 전역함수(개념상 무소속)
+    cout << "::TestFunc()" << endl;
 }
-namespace TEST{
-    void TestFunc(){  // TEST 소속
+namespace TEST {
+    void TestFunc() {  // TEST 소속
         cout << "TEST:: TestFunc()" << endl;
     }
 }
-namespace MYDATA{
-    void TestFunc(){  // MYDATA 소속
+namespace MYDATA {
+    void TestFunc() {  // MYDATA 소속
         cout << "MYDATA:: TestFunc()" << endl;
     }
 }
@@ -31,7 +31,7 @@ namespace MYDATA{
 // TEST,MYDATA에 using 선언을 하면 에러가 걸린다
 // error: call of overloaded 'TestFunc()' is ambiguous|
 
-int main(){
+int main() {
     cout << FIRST::g_nData << endl;  // 접근할 때는 정확히 namespace를 명시해야 함
     cout << FIRST::SECOND::g_nData << endl;
     cout << FIRST::SECOND::THIRD::g_nData << endl;

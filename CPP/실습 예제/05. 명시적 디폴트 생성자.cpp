@@ -2,7 +2,7 @@
 using namespace std;
 // 디폴트 생성자의 정의를 클래스 외부로 분리
 
-class CTest{
+class CTest {
 public:
     CTest();
     /*
@@ -11,9 +11,9 @@ public:
     int m_ndata = 5;
 };
 // 클래스 외부에서 디폴트 생성자 정의
-CTest::CTest(){}
+CTest::CTest() {}
 
-int main(){
+int main() {
     CTest a;
     cout << a.m_ndata << endl;
 

@@ -9,7 +9,7 @@ int main() {
 	//delete : 메모리 해제 연산자
 	int* pData = new int;
 	int* pData2 = new int(10);
-	
+
 	*pData = 5;
 	std::cout << *pData << std::endl;
 	std::cout << *pData2 << std::endl;

@@ -2,14 +2,14 @@
 // namepace : c++가 지원하는 각종 요소들을 한 범주로 묶어주기 위한 문법
 // 의미상 소속 구역
 
-namespace TEST{
+namespace TEST {
     int g_nData = 100;
-    void TestFunc(){
+    void TestFunc() {
         std::cout << "TEST:: TestFunc()" << std::endl;
     }
 }
 
-int main(){
+int main() {
     TEST::TestFunc();
     std::cout << TEST::g_nData << std::endl;
 

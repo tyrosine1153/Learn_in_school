@@ -8,23 +8,23 @@ class CLASSNAME{
     멤버함수선언 및 정의;
 };
 */
-class USERDATA{
+class USERDATA {
 public: // 접근제어 지시자
     // 멤버 변수 선언
     int nAge;
     char szName[32];
 
     // 멤버 함수 선언 및 정의
-    void Print(){
+    void Print() {
         // nAge와 szName은 Print()함수의 지역변수가 아님
         cout << nAge << " " << szName << endl;
     }
 };
 
-class CTest{
+class CTest {
 public:
     // 클래스의 생성자 함수 선언
-    CTest(){
+    CTest() {
         // 인스턴스가 생성되면 멤버 데이터를 자동으로 초기화 한다
         cout << "CTest() : 생성자 함수" << endl;
         m_nData = 10;
@@ -37,12 +37,12 @@ public:
 };
 
 // 클래스 외부에 분리된 멤버 함수 정의
-void CTest::PrintData(){
+void CTest::PrintData() {
     // 멤버 데이터에 접근하고 값을 출력한다
     cout << m_nData << endl;
 }
 
-class DEV{
+class DEV {
 public:
     DEV() : data1(10), data2(20) // 생성자 초기화 목록을 이용한 멤버 초기화
     {}
@@ -50,7 +50,7 @@ public:
     int data2;
 };
 
-class TLQKF{
+class TLQKF {
 public:
     TLQKF() {}
 
@@ -60,8 +60,8 @@ public:
 };
 
 // 사용자의 코드
-int main(){
-    USERDATA user = {20, "철수"}; // 기존 구조체 초기화 방법
+int main() {
+    USERDATA user = { 20, "철수" }; // 기존 구조체 초기화 방법
     CTest t; // 객체 선언 및 인스턴스 생성되면 생성자 함수 호출
     DEV devv;
     TLQKF tlqkf;

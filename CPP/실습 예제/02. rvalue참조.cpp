@@ -1,7 +1,7 @@
 #include<iostream>
 
-int TestFunc(int nParam){
-    return nParam;
+int TestFunc(int nParam) {
+	return nParam;
 }
 
 int main() {

@@ -1,15 +1,15 @@
 #include<iostream>
 #define ADD(a,b) ((a)+(b))
 
-int Add(int a, int b){
+int Add(int a, int b) {
     return a + b;
 }
 
-inline int AddNew(int a, int b){
+inline int AddNew(int a, int b) {
     return a + b;
 }
 
-int main(){
+int main() {
     int a, b;
     std::cin >> a >> b;
 
