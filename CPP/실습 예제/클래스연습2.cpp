@@ -14,6 +14,11 @@ public:
         for (i = 0; i < size; i++)
             m_pszStr[i] = new char[20];
     }
+    ~CMyStrArr(){
+        for (i = 0; strSize; i++)
+            delete[] m_pszStr[i];
+        delete[] m_pszStr;
+    }
 
     void Insert(const char* data) {
         m_pszStr[top++] = data;
@@ -24,12 +29,6 @@ public:
         for (i = 0; i < top; i++)
             cout << i + 1 << " : " << m_pszStr[i] << endl;
         cout << " [ " << i << " / " << strSize << " °³ ]";
-    }
-
-    void DeleteStr() {
-        for (i = 0; strSize; i++)
-            delete[] m_pszStr[i];
-        delete[] m_pszStr;
     }
 };
 

@@ -11,6 +11,9 @@ public:
     CMyDataArr(int size) : top(0), arrSize(size) {
         m_pnArr = new int[size];
     }
+    ~CMyDataArr(){
+        delete[] m_pnArr;
+    }
 
     void Insert(int data) {
         m_pnArr[top++] = data;
@@ -23,10 +26,6 @@ public:
             cout << m_pnArr[i] << " ";
         }
         cout << " [ " << i << " / " << arrSize << " °³ ]";
-    }
-
-    void DeleteArr() {
-        delete[] m_pnArr;
     }
 };
 
