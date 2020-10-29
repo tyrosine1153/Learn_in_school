@@ -9,21 +9,15 @@ void TestFunc(const CMyString& param)
 
 int main()
 {
-    CMyString strData;
-    cout << strData.GetString() << endl;
-    strData.Release();
-    cout << strData.GetString() << endl;
-
-	CMyString strData2;
-	strData2.SetString("");
-	cout << strData2.GetString() << endl;
-	strData2.Release();
-
-	CMyString strData3;
-	strData3.SetString("Hello");
-	TestFunc(strData3);
-	cout << strData3.GetString() << endl;
-	strData3.Release();
+    CMyString strData, strTest;
+    strData.SetString("Hello");
+    strTest.SetString("World");
+    // 복사생성
+    CMyString strNewData(strData);
+    cout << strNewData.GetString() << endl;
+    // 단순 대입 연산자 호출
+    strNewData = strTest;
+    cout << strNewData.GetString() << endl;
 
     return 0;
 }

@@ -1,9 +1,7 @@
 #include "CMyString.h"
 #include <cstring>
 
-CMyString::CMyString()
-	:m_pszData(nullptr)
-	, m_nLength(0)
+CMyString::CMyString() : m_pszData(nullptr), m_nLength(10)
 {
 }
 
@@ -30,7 +28,7 @@ const char* CMyString::GetString() const
 }
 
 
-void CMyString::Release() const
+void CMyString::Release()
 {
 	delete m_pszData;
 }
