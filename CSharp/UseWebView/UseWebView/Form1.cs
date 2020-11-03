@@ -23,23 +23,23 @@ namespace UseWebView
 		{
 			if (webBrowser1.Url.AbsoluteUri != e.Url.AbsoluteUri) return;
 			int asdf = 0;
-			asdf++;
-			//webBrowser1.Document.Encoding
-			//webBrowser1.DocumentText
+			asdf++; // 디버그할때 걸리도록 함
+			// webBrowser1.Document.Encoding
+			// webBrowser1.DocumentText
 			HtmlAgilityPack.HtmlDocument doc = new HtmlAgilityPack.HtmlDocument();
 			Stream docStream = this.webBrowser1.DocumentStream;
 			StreamReader streamReader = new StreamReader(docStream,
 				System.Text.Encoding.GetEncoding(webBrowser1.Document.Encoding));
 			string strHtml = streamReader.ReadToEnd();  // 대충 인코딩하고 strHtml에 담는다는 내용
 
-			//대충 필요한 부분만 잘라내는 내용
+			// 대충 필요한 부분만 잘라내는 내용
 			HtmlAgilityPack.HtmlNode parseNode = doc.DocumentNode.
 				SelectSingleNode("//div[@class='box_type_l']").SelectSingleNode("//table[@class='type_2']");
 			List<List<string>> parsedTbl = parseNode.Descendants("tr")//tr기준으로 자름
-				.Skip(1) //To Skip Table Header Row 헤더 스킵하려고
+				.Skip(1) // To Skip Table Header Row 헤더 스킵하려고
 				.Where(tr => tr.Elements("td").Count() > 1)// element를 td 기준으로 잘라냄
 				.Select(tr => tr.Elements("td")
-				.Select(td => td.InnerText.Trim())//InnerHtml : 표 안에있는 글자 <-> OuterHtml
+				.Select(td => td.InnerText.Trim())// InnerHtml : 표 안에있는 글자 <-> OuterHtml
 				.ToList()).ToList();
 		}
 
