@@ -24,8 +24,8 @@ namespace UseWebView
 			if (webBrowser1.Url.AbsoluteUri != e.Url.AbsoluteUri) return;
 			int asdf = 0;
 			asdf++; // 디버그할때 걸리도록 함
-			// webBrowser1.Document.Encoding
-			// webBrowser1.DocumentText
+					// webBrowser1.Document.Encoding
+					// webBrowser1.DocumentText
 			HtmlAgilityPack.HtmlDocument doc = new HtmlAgilityPack.HtmlDocument();
 			Stream docStream = this.webBrowser1.DocumentStream;
 			StreamReader streamReader = new StreamReader(docStream,
@@ -41,25 +41,6 @@ namespace UseWebView
 				.Select(tr => tr.Elements("td")
 				.Select(td => td.InnerText.Trim())// InnerHtml : 표 안에있는 글자 <-> OuterHtml
 				.ToList()).ToList();
-		}
-
-		private void button1_Click(object sender, EventArgs e)
-		{
-			try
-			{
-				TcpClient tcpClient = new TcpClient();
-				tcpClient.Connect("10.156.146.76", 2101);
-				NetworkStream networkStream = tcpClient.GetStream();
-				MessageBox.Show("연결성공");
-
-				networkStream.Write(Encoding.UTF8.GetBytes("aam jjunggminssssss"), 0, 10);
-				networkStream.Flush();
-				MessageBox.Show("아무튼 성공");
-			}
-			catch
-			{
-				MessageBox.Show("연결실패");
-			}
 		}
 
 		private void Form1_Load(object sender, EventArgs e)

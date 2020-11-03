@@ -1,0 +1,9 @@
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseWebView\Server\bin\Debug\Server.exe.config
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseWebView\Server\bin\Debug\Server.exe
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseWebView\Server\bin\Debug\Server.pdb
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseWebView\Server\obj\Debug\Server.Form1.resources
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseWebView\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseWebView\Server\obj\Debug\Server.csproj.GenerateResource.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseWebView\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseWebView\Server\obj\Debug\Server.exe
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseWebView\Server\obj\Debug\Server.pdb
