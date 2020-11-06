@@ -1,23 +1,13 @@
 ﻿#include <iostream>
 #include "CMyString.h"
 using namespace std;
-
-void TestFunc(const CMyString& param)
+int	main()
 {
-	cout << param.GetString() << endl;
-}
-
-int main()
-{
-    CMyString strData, strTest;
-    strData.SetString("Hello");
-    strTest.SetString("World");
-    // 복사생성
-    CMyString strNewData(strData);
-    cout << strNewData.GetString() << endl;
-    // 단순 대입 연산자 호출
-    strNewData = strTest;
-    cout << strNewData.GetString() << endl;
-
-    return 0;
+	CMyString strLeft("학번 : 1314"), strRight(", 이름 : 유정민"), strResult;  // 학번과 이름은 본인 것으로 수정
+	strResult = strLeft + strRight;
+	cout << strResult << endl;
+	cout << strLeft << endl;
+	strLeft += strRight;
+	cout << strLeft << endl;
+	return	0;
 }
