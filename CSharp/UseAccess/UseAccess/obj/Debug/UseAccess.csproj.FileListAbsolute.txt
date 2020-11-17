@@ -1,0 +1,11 @@
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseAccess\UseAccess\bin\Debug\비디오 관리.accdb
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseAccess\UseAccess\bin\Debug\UseAccess.exe.config
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseAccess\UseAccess\bin\Debug\UseAccess.exe
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseAccess\UseAccess\bin\Debug\UseAccess.pdb
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseAccess\UseAccess\obj\Debug\UseAccess.csprojAssemblyReference.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseAccess\UseAccess\obj\Debug\UseAccess.Form1.resources
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseAccess\UseAccess\obj\Debug\UseAccess.Properties.Resources.resources
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseAccess\UseAccess\obj\Debug\UseAccess.csproj.GenerateResource.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseAccess\UseAccess\obj\Debug\UseAccess.csproj.CoreCompileInputs.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseAccess\UseAccess\obj\Debug\UseAccess.exe
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseAccess\UseAccess\obj\Debug\UseAccess.pdb
