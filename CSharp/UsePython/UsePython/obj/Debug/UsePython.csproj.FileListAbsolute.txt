@@ -1,0 +1,10 @@
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UsePython\UsePython\bin\Debug\UsePython.exe.config
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UsePython\UsePython\bin\Debug\UsePython.exe
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UsePython\UsePython\bin\Debug\UsePython.pdb
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UsePython\UsePython\obj\Debug\UsePython.csprojAssemblyReference.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UsePython\UsePython\obj\Debug\UsePython.Form1.resources
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UsePython\UsePython\obj\Debug\UsePython.Properties.Resources.resources
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UsePython\UsePython\obj\Debug\UsePython.csproj.GenerateResource.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UsePython\UsePython\obj\Debug\UsePython.csproj.CoreCompileInputs.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UsePython\UsePython\obj\Debug\UsePython.exe
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UsePython\UsePython\obj\Debug\UsePython.pdb
