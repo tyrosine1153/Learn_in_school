@@ -1,3 +1,3 @@
-﻿import turtle as t
+﻿import turtle
 
-t.fd(100)
+turtle.fd(1000)

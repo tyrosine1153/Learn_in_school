@@ -37,7 +37,7 @@ namespace UsePython
 
 				Process pyProcess = new Process();
 				pyProcess.StartInfo = processInfo; // 위에 설정한 StartInfo 자료형 객체 대입
-				Process.Start(processInfo); // 프로세스 시작 Process.Start("py.exe", "temp.py");
+				pyProcess.Start(); // 프로세스 시작 Process.Start("py.exe", "temp.py");
 
 				StreamReader myStreamReader = pyProcess.StandardError; //
 				MessageBox.Show(myStreamReader.ReadLine()); //
