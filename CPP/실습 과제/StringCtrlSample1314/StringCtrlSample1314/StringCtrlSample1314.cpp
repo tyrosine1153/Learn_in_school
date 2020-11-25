@@ -3,11 +3,16 @@
 using namespace std;
 int	main()
 {
-	CMyString strLeft("학번 : 1314"), strRight(", 이름 : 유정민"), strResult;  // 학번과 이름은 본인 것으로 수정
-	strResult = strLeft + strRight;
-	cout << strResult << endl;
-	cout << strLeft << endl;
-	strLeft += strRight;
-	cout << strLeft << endl;
+	CMyString strParam("StudentID : 1314"), strName("Name : 유정민");
+	if (strParam == strName)
+		cout << "같다! " << endl;
+	else
+		cout << "다르다!" << endl;
+	CMyString strTest = CMyString("StudentID : 1314");
+	
+	if (strParam != strTest)
+		cout << "다르다!" << endl;
+	else
+		cout << "같다! " << endl;
 	return	0;
 }

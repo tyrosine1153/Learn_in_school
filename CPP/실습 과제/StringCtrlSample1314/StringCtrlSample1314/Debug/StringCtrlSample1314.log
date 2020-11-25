@@ -1,5 +1,2 @@
-﻿  CMyString.cpp
-C:\Users\jungm\Desktop\GitHub\Study_in_school\CPP\실습 과제\StringCtrlSample1314\StringCtrlSample1314\CMyString.cpp(94,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\jungm\Desktop\GitHub\Study_in_school\CPP\실습 과제\StringCtrlSample1314\StringCtrlSample1314\CMyString.cpp(95,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  StringCtrlSample1314.cpp
-  코드를 생성하고 있습니다...
+﻿  StringCtrlSample1314.cpp
+  StringCtrlSample1314.vcxproj -> C:\Users\jungm\Desktop\GitHub\Study_in_school\CPP\실습 과제\StringCtrlSample1314\Debug\StringCtrlSample1314.exe
