@@ -18,8 +18,8 @@ CMyString::CMyString(const CMyString& rhs) {
 	m_nLength = rhs.m_nLength;
 }
 
-CMyString::CMyString(CMyString&& rhs) : m_pszData(nullptr), m_nLength(0) {
-	m_pszData = rhs.m_pszData;
+CMyString::CMyString(CMyString&& rhs) {
+	this->SetString(rhs.m_pszData);
 	m_nLength = rhs.m_nLength;
 	rhs.m_pszData = nullptr;
 	rhs.m_nLength = 0;

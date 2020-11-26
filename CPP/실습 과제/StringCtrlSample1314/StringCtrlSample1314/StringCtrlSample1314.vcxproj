@@ -140,10 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CMyString.cpp" />
+    <ClCompile Include="CMyStringEx.cpp" />
     <ClCompile Include="StringCtrlSample1314.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CMyString.h" />
+    <ClInclude Include="CMyStringEx.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
