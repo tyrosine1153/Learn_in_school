@@ -1,0 +1,3 @@
+﻿  CMyList.cpp
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CPP\실습 과제\CMyList\CMyList\CMyList.h(8,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'DNode' 왼쪽은 무시됩니다.
+  CMyList.vcxproj -> C:\Users\jungm\Desktop\GitHub\Study_in_school\CPP\실습 과제\CMyList\Debug\CMyList.exe
