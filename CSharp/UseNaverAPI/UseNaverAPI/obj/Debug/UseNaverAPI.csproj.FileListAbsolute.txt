@@ -1,0 +1,10 @@
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseNaverAPI\UseNaverAPI\bin\Debug\UseNaverAPI.exe.config
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseNaverAPI\UseNaverAPI\bin\Debug\UseNaverAPI.exe
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseNaverAPI\UseNaverAPI\bin\Debug\UseNaverAPI.pdb
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseNaverAPI\UseNaverAPI\obj\Debug\UseNaverAPI.csprojAssemblyReference.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseNaverAPI\UseNaverAPI\obj\Debug\UseNaverAPI.Form1.resources
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseNaverAPI\UseNaverAPI\obj\Debug\UseNaverAPI.Properties.Resources.resources
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseNaverAPI\UseNaverAPI\obj\Debug\UseNaverAPI.csproj.GenerateResource.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseNaverAPI\UseNaverAPI\obj\Debug\UseNaverAPI.csproj.CoreCompileInputs.cache
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseNaverAPI\UseNaverAPI\obj\Debug\UseNaverAPI.exe
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CSharp\UseNaverAPI\UseNaverAPI\obj\Debug\UseNaverAPI.pdb
