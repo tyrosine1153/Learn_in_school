@@ -1,18 +1,43 @@
-import tkinter
-
-# 셍성 구문 - 위젯 구문 - 반복 구문
-window_example = tkinter.Tk()  # 윈도우 창 생성
-
-window_example.title("Example")  # 창의 제목
-window_example.geometry("640x400+100+100")  # "너비x높이+x좌표+y좌표" 형식으로 너비,봎이,x,y좌표 설정
-window_example.resizable(False, False)  # 창 크기 조절 여부 (상하, 좌우), 상수적용 가능
-
-label_example = tkinter.Label(window_example, text="안녕하세요.")  # 위젯 설정
-label_example.pack()  # 설정한 위젯 배치
-
-window_example.mainloop()  # 윈도우창을 윈도우가 종료될때까지 실행
+from tkinter import *
+from tkinter import ttk
 
 
+def calculate(*args):
+    try:
+        value = float(feet.get())
+        meters.set(int(0.3048 * value * 10000.0 + 0.5)/10000.0)
+    except ValueError:
+        pass
+
+
+root = Tk()
+root.title("Feet to Meters")
+
+mainframe = ttk.Frame(root, padding="3 3 12 12")
+mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
+root.columnconfigure(0, weight=1)
+root.rowconfigure(0, weight=1)
+
+feet = StringVar()
+feet_entry = ttk.Entry(mainframe, width=7, textvariable=feet)
+feet_entry.grid(column=2, row=1, sticky=(W, E))
+
+meters = StringVar()
+ttk.Label(mainframe, textvariable=meters).grid(column=2, row=2, sticky=(W, E))
+
+ttk.Button(mainframe, text="Calculate", command=calculate).grid(column=3, row=3, sticky=W)
+
+ttk.Label(mainframe, text="feet").grid(column=3, row=1, sticky=W)
+ttk.Label(mainframe, text="is equivalent to").grid(column=1, row=2, sticky=E)
+ttk.Label(mainframe, text="meters").grid(column=3, row=2, sticky=W)
+
+for child in mainframe.winfo_children():
+    child.grid_configure(padx=5, pady=5)
+
+feet_entry.focus()
+root.bind("<Return>", calculate)
+
+root.mainloop()
 """
 12.7, (PC_이름_주제), Python관련 모든 것 이론 및 시연 예시, 5분- ppt,시연
 """
