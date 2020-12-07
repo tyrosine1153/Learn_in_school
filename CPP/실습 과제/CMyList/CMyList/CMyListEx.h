@@ -1,6 +1,13 @@
 #pragma once
 #include "CMyList.h"
 
+typedef struct DNodeEx
+{
+	int data;
+	DNodeEx* linkL;
+	DNodeEx* linkR;
+};
+
 class CMyListEx : public CMyList
 {
 public:
@@ -14,7 +21,7 @@ public:
 	void Print();
 	void PrintReverse();
 private:
-	DNode* headNode = nullptr;
-	DNode* tailNode = nullptr;
+	DNodeEx* headNode = nullptr;
+	DNodeEx* tailNode = nullptr;
 	int m_nLength = 0;
 };

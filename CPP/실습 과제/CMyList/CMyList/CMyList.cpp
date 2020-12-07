@@ -39,16 +39,13 @@ void CMyList::Insert()
 	if (m_nLength == 0)
 	{
 		headNode = newNode;
+		tailNode = newNode;
 		m_nLength++;
 	}
 	else 
-	{
-		DNode* cur = headNode;
-		for (int i = 1; i < m_nLength; i++)
-		{
-			cur = cur->link;
-		}
-		cur->link = newNode;
+	{	
+		tailNode->link = newNode;
+		tailNode = newNode;
 		m_nLength++;
 	}
 
