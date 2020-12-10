@@ -27,7 +27,7 @@ void CMyListEx::ShowMenu()
 	cout << " 메뉴를 고르세요(숫자 입력) : ";
 }
 
-void CMyListEx::InsertFront() 
+void CMyListEx::InsertFront()
 {
 	int num;
 	cout << "\n 삽입할 데이터를 입력해주세요 : ";

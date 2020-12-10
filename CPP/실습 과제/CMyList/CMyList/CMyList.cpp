@@ -4,14 +4,12 @@ using namespace std;
 
 CMyList::~CMyList() 
 {
-	DNode* del = headNode;
-	DNode* delNext = del->link;
-	delete del;
-	while (delNext)
+	while (m_nLength)
 	{
-		del = delNext;
-		delNext = delNext->link;
+		DNode* del = headNode;
+		headNode = headNode->link;
 		delete del;
+		m_nLength--;
 	}
 }
 

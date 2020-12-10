@@ -1,0 +1,10 @@
+﻿  CMyList.cpp
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CPP\실습 과제\CMyList\CMyList\CMyList.h(8,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'DNode' 왼쪽은 무시됩니다.
+  CMyListEx.cpp
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CPP\실습 과제\CMyList\CMyList\CMyList.h(8,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'DNode' 왼쪽은 무시됩니다.
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CPP\실습 과제\CMyList\CMyList\CMyListEx.h(9,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'DNodeEx' 왼쪽은 무시됩니다.
+  CMyListMain.cpp
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CPP\실습 과제\CMyList\CMyList\CMyList.h(8,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'DNode' 왼쪽은 무시됩니다.
+C:\Users\jungm\Desktop\GitHub\Study_in_school\CPP\실습 과제\CMyList\CMyList\CMyListEx.h(9,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 'DNodeEx' 왼쪽은 무시됩니다.
+  코드를 생성하고 있습니다...
+  CMyList_ex.vcxproj -> C:\Users\jungm\Desktop\GitHub\Study_in_school\CPP\CMyList_ex\Debug\CMyList_ex.exe

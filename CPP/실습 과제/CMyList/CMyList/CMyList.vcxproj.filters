@@ -26,10 +26,10 @@
     <ClCompile Include="CMyList.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="CMyListMain.cpp">
+    <ClCompile Include="CMyListEx.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="CMyListEx.cpp">
+    <ClCompile Include="CMyListMain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
