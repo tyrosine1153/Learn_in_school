@@ -1,13 +1,12 @@
 using namespace std;
 #include "CMyList.h"
-#include <iostream>
 
 CMyList::~CMyList() 
 {
 	while (m_nLength)
 	{
 		DNode* del = headNode;
-		headNode = headNode->link;
+		headNode = headNode->linkL;
 		delete del;
 		m_nLength--;
 	}
@@ -32,7 +31,7 @@ void CMyList::Insert()
 
 	DNode* newNode = new DNode();
 	newNode->data = num;
-	newNode->link = nullptr;
+	newNode->linkL = nullptr;
 
 	if (m_nLength == 0)
 	{
@@ -42,7 +41,7 @@ void CMyList::Insert()
 	}
 	else 
 	{	
-		tailNode->link = newNode;
+		tailNode->linkL = newNode;
 		tailNode = newNode;
 		m_nLength++;
 	}
@@ -57,7 +56,7 @@ void CMyList::Print()
 	for (int i = 0; i < m_nLength; i++)
 	{
 		cout << " " << cur->data;
-		cur = cur->link;
+		cur = cur->linkL;
 	}
 	cout << " [Tail]" << endl;
 	cout << " 데이터 개수 : " << m_nLength << "개" << endl;
