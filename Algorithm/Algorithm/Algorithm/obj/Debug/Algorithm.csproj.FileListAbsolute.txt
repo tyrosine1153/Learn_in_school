@@ -1,0 +1,6 @@
+D:\0_GitHub\Study_in_school\Algorithm\Algorithm\Algorithm\bin\Debug\Algorithm.exe
+D:\0_GitHub\Study_in_school\Algorithm\Algorithm\Algorithm\bin\Debug\Algorithm.pdb
+D:\0_GitHub\Study_in_school\Algorithm\Algorithm\Algorithm\obj\Debug\Algorithm.csprojAssemblyReference.cache
+D:\0_GitHub\Study_in_school\Algorithm\Algorithm\Algorithm\obj\Debug\Algorithm.csproj.CoreCompileInputs.cache
+D:\0_GitHub\Study_in_school\Algorithm\Algorithm\Algorithm\obj\Debug\Algorithm.exe
+D:\0_GitHub\Study_in_school\Algorithm\Algorithm\Algorithm\obj\Debug\Algorithm.pdb

@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "Algorithm\Algorithm.csproj", "{ECB81101-A5CD-4BF5-ABF6-A8F7035C2F9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECB81101-A5CD-4BF5-ABF6-A8F7035C2F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB81101-A5CD-4BF5-ABF6-A8F7035C2F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB81101-A5CD-4BF5-ABF6-A8F7035C2F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB81101-A5CD-4BF5-ABF6-A8F7035C2F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
