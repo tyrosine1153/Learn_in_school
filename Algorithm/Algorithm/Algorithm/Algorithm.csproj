@@ -38,6 +38,9 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="BuyingCard11052.cs" />
+        <Compile Include="EasyStairNum10844.cs" />
+        <Compile Include="KakaoDjwjrn.cs" />
         <Compile Include="Make1.cs" />
         <Compile Include="Fibonacci.cs" />
         <Compile Include="OneTwoThreePlus.cs" />
